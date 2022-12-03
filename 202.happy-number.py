@@ -6,7 +6,6 @@ class Solution:
             visit.add(n)
             n = self.sumOfSquares(n)
             if n == 1: return True;
-
         return False;
 
 
